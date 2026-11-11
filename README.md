@@ -1,4 +1,4 @@
-# Qt NX CB â€” 2026.11.11
+# Qt NX CB 2026.11.11
 
 An adapter implementing a subset of `QString`, `QStringList`, `QChar`, `QCharRef`,
 and Qt enumerations/flags for Windows and C++Builder 10.4.
@@ -6,12 +6,12 @@ Qt 5.15.2 is the behavioral reference for the implemented operations.
 
 ## Contents
 
-- `qstring_nx_cb.h` â€” UTF-16 strings, conversions, searching, formatting, and string lists.
-- `qchar_nx_cb.h` â€” UTF-16 characters, character properties, and proxies for modifying characters in strings.
-- `qtnamespace_nx_cb.h` â€” enumerations and strongly typed flags.
-- `examples/basic.cpp` â€” minimal example.
-- `tests/` â€” standalone regression test suite and reference data.
-- `docs/` â€” changes, testing scope, and verification results.
+- `qstring_nx_cb.h` - UTF-16 strings, conversions, searching, formatting, and string lists.
+- `qchar_nx_cb.h` - UTF-16 characters, character properties, and proxies for modifying characters in strings.
+- `qtnamespace_nx_cb.h` - enumerations and strongly typed flags.
+- `examples/basic.cpp` - minimal example.
+- `tests/` - standalone regression test suite and reference data.
+- `docs/` - changes, testing scope, and verification results.
 - `MANIFEST.json`, `SHA256SUMS` â€” version, package contents, and file checksums.
 
 ## Dependencies and integration
