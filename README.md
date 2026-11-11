@@ -1,4 +1,4 @@
-# Qt NX CB 2026.11.11
+# QString for Embarcadero C++Builder 10.4. Ver. 2026.11.11
 
 An adapter implementing a subset of `QString`, `QStringList`, `QChar`, `QCharRef`,
 and Qt enumerations/flags for Windows and C++Builder 10.4.
