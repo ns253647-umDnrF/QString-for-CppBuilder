@@ -1,0 +1,246 @@
+{
+  "passed": true,
+  "started": "2026-11-11T14:06:23.329223",
+  "finished": "2026-11-11T14:34:46.519461",
+  "header_sha256_before_version_comments": {
+    "qchar_nx_cb.h": "016092b20bfbd8d4e9cf1973695da5ef3f43da6ab090a0659d700f622df4f851",
+    "qstring_nx_cb.h": "2d5ba6d523d8749c0b043227855f9d8331bb744375e4e2a898d25be432ce139c",
+    "qtnamespace_nx_cb.h": "4e84ac128dbe7c53d5a1224145187d34c91e988600035318c90903b32ecf07b5"
+  },
+  "suite_count": 58,
+  "suites": [
+    {
+      "name": "baseline",
+      "exit_code": 0
+    },
+    {
+      "name": "supplemental",
+      "exit_code": 0
+    },
+    {
+      "name": "differential",
+      "exit_code": 0
+    },
+    {
+      "name": "followup",
+      "exit_code": 0
+    },
+    {
+      "name": "shortest",
+      "exit_code": 0
+    },
+    {
+      "name": "roundtrip",
+      "exit_code": 0
+    },
+    {
+      "name": "reaudit",
+      "exit_code": 0
+    },
+    {
+      "name": "postfix",
+      "exit_code": 0
+    },
+    {
+      "name": "postfix_compile",
+      "exit_code": 0
+    },
+    {
+      "name": "boundary",
+      "exit_code": 0
+    },
+    {
+      "name": "boundary_compile",
+      "exit_code": 0
+    },
+    {
+      "name": "deep",
+      "exit_code": 0
+    },
+    {
+      "name": "deep_numbers",
+      "exit_code": 0
+    },
+    {
+      "name": "sequence",
+      "exit_code": 0
+    },
+    {
+      "name": "sequence_numbers",
+      "exit_code": 0
+    },
+    {
+      "name": "sequence_compile",
+      "exit_code": 0
+    },
+    {
+      "name": "flags_signedness",
+      "exit_code": 0
+    },
+    {
+      "name": "section_insensitive",
+      "exit_code": 0
+    },
+    {
+      "name": "unicode_conversion",
+      "exit_code": 0
+    },
+    {
+      "name": "replace_performance",
+      "exit_code": 0
+    },
+    {
+      "name": "flags_constraints",
+      "exit_code": 0
+    },
+    {
+      "name": "string_search_boundaries",
+      "exit_code": 0
+    },
+    {
+      "name": "flags_mixed_operators",
+      "exit_code": 0
+    },
+    {
+      "name": "list_references",
+      "exit_code": 0
+    },
+    {
+      "name": "enum_integer_flags",
+      "exit_code": 0
+    },
+    {
+      "name": "character_codes",
+      "exit_code": 0
+    },
+    {
+      "name": "character_overloads",
+      "exit_code": 0
+    },
+    {
+      "name": "remaining_character_operations",
+      "exit_code": 0
+    },
+    {
+      "name": "remaining_character_compile",
+      "exit_code": 0
+    },
+    {
+      "name": "character_and_dedup_edges",
+      "exit_code": 0
+    },
+    {
+      "name": "dedup_performance",
+      "exit_code": 0
+    },
+    {
+      "name": "six_fix_compile_and_flags",
+      "exit_code": 0
+    },
+    {
+      "name": "six_fix_string_overloads",
+      "exit_code": 0
+    },
+    {
+      "name": "dedup_hash_collisions",
+      "exit_code": 0
+    },
+    {
+      "name": "null_literal_and_char",
+      "exit_code": 0
+    },
+    {
+      "name": "null_literal_compile",
+      "exit_code": 0
+    },
+    {
+      "name": "utf8_concatenation",
+      "exit_code": 0
+    },
+    {
+      "name": "concat_compile_and_qabs",
+      "exit_code": 0
+    },
+    {
+      "name": "operand_conversions",
+      "exit_code": 0
+    },
+    {
+      "name": "additional_numeric_sample",
+      "exit_code": 0
+    },
+    {
+      "name": "operator_priority_and_sfinae",
+      "exit_code": 0
+    },
+    {
+      "name": "incomplete_types_and_operator_lookup",
+      "exit_code": 0
+    },
+    {
+      "name": "null_proxy_lookup",
+      "exit_code": 0
+    },
+    {
+      "name": "list_surrogate_sort",
+      "exit_code": 0
+    },
+    {
+      "name": "release_conversions",
+      "exit_code": 0
+    },
+    {
+      "name": "release_rounding",
+      "exit_code": 0
+    },
+    {
+      "name": "release_state",
+      "exit_code": 0
+    },
+    {
+      "name": "release_integration",
+      "exit_code": 0
+    },
+    {
+      "name": "release_local_lossy",
+      "exit_code": 0
+    },
+    {
+      "name": "release_enum_values",
+      "exit_code": 0
+    },
+    {
+      "name": "release_precision",
+      "exit_code": 0
+    },
+    {
+      "name": "release_locale",
+      "exit_code": 0
+    },
+    {
+      "name": "release_guarded",
+      "exit_code": 0
+    },
+    {
+      "name": "four_review_search_and_int",
+      "exit_code": 0
+    },
+    {
+      "name": "four_review_local_code_page",
+      "exit_code": 0
+    },
+    {
+      "name": "four_review_qcharref_growth",
+      "exit_code": 0
+    },
+    {
+      "name": "second_search_behavior",
+      "exit_code": 0
+    },
+    {
+      "name": "second_search_performance",
+      "exit_code": 0
+    }
+  ],
+  "scope": "Historical full workspace run; development dependencies and logs are not distributed"
+}

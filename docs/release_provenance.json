@@ -1,0 +1,27 @@
+{
+  "version": "2026.11.11",
+  "date": "2026-11-11",
+  "headers": {
+    "qchar_nx_cb.h": {
+      "before_sha256": "016092b20bfbd8d4e9cf1973695da5ef3f43da6ab090a0659d700f622df4f851",
+      "release_sha256": "47ce2ddb684677c953baa8dc229864d0d81cacbc24b5da721ed0cd8a4a60a787",
+      "only_version_comment_changed": true
+    },
+    "qstring_nx_cb.h": {
+      "before_sha256": "2d5ba6d523d8749c0b043227855f9d8331bb744375e4e2a898d25be432ce139c",
+      "release_sha256": "5a55ae65aa6a5dc05fd8a5e98185537c2c98c4520e232cd769c716481289c1b5",
+      "only_version_comment_changed": true
+    },
+    "qtnamespace_nx_cb.h": {
+      "before_sha256": "4e84ac128dbe7c53d5a1224145187d34c91e988600035318c90903b32ecf07b5",
+      "release_sha256": "777b7859b1fbac691ccaf008971a4153aec432fee415fe50710c553a2aae5883",
+      "only_version_comment_changed": true
+    }
+  },
+  "full_audit_passed": true,
+  "full_audit_suites": 58,
+  "full_audit_source_sha256": "759486e570e370ac9ebd29ae8a524981157d19c357743a1ac9db9b53e1a1c228",
+  "reference_dll_sha256": "8d2ff4ce9096ddccc4f4cd62c2e41fc854cfd1b0d6e8d296645a7f5fd4ae565a",
+  "logic_changed_during_packaging": false,
+  "tests": "Self-contained release subset; see TESTING.md for exact scope"
+}

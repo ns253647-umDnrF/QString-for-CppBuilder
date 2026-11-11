@@ -1,0 +1,390 @@
+{
+  "version": "2026.11.11",
+  "started_utc": "2026-11-11T12:27:22.906217+00:00",
+  "header_sha256": {
+    "qchar_nx_cb.h": "47ce2ddb684677c953baa8dc229864d0d81cacbc24b5da721ed0cd8a4a60a787",
+    "qstring_nx_cb.h": "5a55ae65aa6a5dc05fd8a5e98185537c2c98c4520e232cd769c716481289c1b5",
+    "qtnamespace_nx_cb.h": "777b7859b1fbac691ccaf008971a4153aec432fee415fe50710c553a2aae5883"
+  },
+  "windows_acp": 1251,
+  "compiler_paths": {
+    "win32": "bcc32c (C++Builder 10.4)",
+    "win64": "bcc64 (C++Builder 10.4)"
+  },
+  "profiles": {
+    "win32_default": [
+      {
+        "name": "basic_strings",
+        "passed": true,
+        "output": "57 checks, 0 failures\r\n"
+      },
+      {
+        "name": "extra_strings",
+        "passed": true,
+        "output": "double overflow: value=+INF ok=0\r\nfloat overflow: value=-INF ok=0\r\n48 checks, 0 failures\r\n"
+      },
+      {
+        "name": "compatibility",
+        "passed": true,
+        "output": "65 tests, 0 failures\r\n"
+      },
+      {
+        "name": "edges",
+        "passed": true,
+        "output": "58 additional checks, 0 failures\r\n"
+      },
+      {
+        "name": "formatter",
+        "passed": true,
+        "output": "38 printf regression checks, 0 failures\r\n"
+      },
+      {
+        "name": "example",
+        "passed": true,
+        "output": "Hello, C++Builder: 42\r\n"
+      },
+      {
+        "name": "compilation",
+        "passed": true,
+        "compile_only_checks": 6,
+        "linked_checks": 2
+      },
+      {
+        "name": "search",
+        "passed": true,
+        "checks": 126596,
+        "expected_sha256": "73dd6465f410c9e668fd62ca65f927b813887787aa4729f74d51d6dbd5c65c4f",
+        "output": ""
+      },
+      {
+        "name": "search_and_int",
+        "passed": true,
+        "checks": 74772,
+        "expected_sha256": "1722842fc257841618cc2f456f0c4765df056cc9ccf16ed46915d2bd75a7ab1f",
+        "output": "search_ms=13.715770 sink=-20\r\n"
+      },
+      {
+        "name": "proxy",
+        "passed": true,
+        "checks": 54725,
+        "expected_sha256": "7f5caa18a30a545388eeda5a71b189b6a843796147e5a0852c48c3258aa98022",
+        "output": ""
+      },
+      {
+        "name": "local8bit",
+        "passed": true,
+        "checks": 269232,
+        "expected_sha256": "7b8416140d575a8d658e0d8e0040725d9ab919279fc8c359348a90bb1d656388",
+        "output": "RTL=65001 ACP=1251 preserved\r\nRTL=1252 ACP=1251 preserved\r\nRTL=932 ACP=1251 preserved\r\nRTL=1251 ACP=1251 preserved\r\n"
+      },
+      {
+        "name": "rounding",
+        "passed": true,
+        "checks": 33680,
+        "expected_sha256": "4ef67c6dd850e35ce7f6f9d5745f924c10432db969a60ff4fab04ec647459138",
+        "output": ""
+      },
+      {
+        "name": "integration",
+        "passed": true,
+        "checks": 84692,
+        "output": "entered main\r\nlinked values checked\r\ncontainers checked\r\nthreads finished\r\n84692 checks, 0 failures\r\n"
+      },
+      {
+        "name": "search_performance",
+        "passed": true,
+        "milliseconds": {
+          "reverse_missing": 6.44579,
+          "dense_count": 3.14837,
+          "insensitive_early": 0.0004333,
+          "insensitive_late_start": 0.0004333,
+          "dense_count_insensitive": 3.3087,
+          "reverse_near_end": 0.0004227
+        },
+        "timing_limits_enforced": false
+      }
+    ],
+    "win32_O2": [
+      {
+        "name": "basic_strings",
+        "passed": true,
+        "output": "57 checks, 0 failures\r\n"
+      },
+      {
+        "name": "extra_strings",
+        "passed": true,
+        "output": "double overflow: value=+INF ok=0\r\nfloat overflow: value=-INF ok=0\r\n48 checks, 0 failures\r\n"
+      },
+      {
+        "name": "compatibility",
+        "passed": true,
+        "output": "65 tests, 0 failures\r\n"
+      },
+      {
+        "name": "edges",
+        "passed": true,
+        "output": "58 additional checks, 0 failures\r\n"
+      },
+      {
+        "name": "formatter",
+        "passed": true,
+        "output": "38 printf regression checks, 0 failures\r\n"
+      },
+      {
+        "name": "example",
+        "passed": true,
+        "output": "Hello, C++Builder: 42\r\n"
+      },
+      {
+        "name": "compilation",
+        "passed": true,
+        "compile_only_checks": 6,
+        "linked_checks": 2
+      },
+      {
+        "name": "search",
+        "passed": true,
+        "checks": 126596,
+        "expected_sha256": "73dd6465f410c9e668fd62ca65f927b813887787aa4729f74d51d6dbd5c65c4f",
+        "output": ""
+      },
+      {
+        "name": "search_and_int",
+        "passed": true,
+        "checks": 74772,
+        "expected_sha256": "1722842fc257841618cc2f456f0c4765df056cc9ccf16ed46915d2bd75a7ab1f",
+        "output": "search_ms=1.210845 sink=-20\r\n"
+      },
+      {
+        "name": "proxy",
+        "passed": true,
+        "checks": 54725,
+        "expected_sha256": "7f5caa18a30a545388eeda5a71b189b6a843796147e5a0852c48c3258aa98022",
+        "output": ""
+      },
+      {
+        "name": "local8bit",
+        "passed": true,
+        "checks": 269232,
+        "expected_sha256": "7b8416140d575a8d658e0d8e0040725d9ab919279fc8c359348a90bb1d656388",
+        "output": "RTL=65001 ACP=1251 preserved\r\nRTL=1252 ACP=1251 preserved\r\nRTL=932 ACP=1251 preserved\r\nRTL=1251 ACP=1251 preserved\r\n"
+      },
+      {
+        "name": "rounding",
+        "passed": true,
+        "checks": 33680,
+        "expected_sha256": "4ef67c6dd850e35ce7f6f9d5745f924c10432db969a60ff4fab04ec647459138",
+        "output": ""
+      },
+      {
+        "name": "integration",
+        "passed": true,
+        "checks": 84692,
+        "output": "entered main\r\nlinked values checked\r\ncontainers checked\r\nthreads finished\r\n84692 checks, 0 failures\r\n"
+      },
+      {
+        "name": "search_performance",
+        "passed": true,
+        "milliseconds": {
+          "reverse_missing": 0.8742,
+          "dense_count": 0.25966,
+          "insensitive_early": 4.03e-05,
+          "insensitive_late_start": 3.98e-05,
+          "dense_count_insensitive": 0.28169,
+          "reverse_near_end": 3.85e-05
+        },
+        "timing_limits_enforced": true
+      }
+    ],
+    "win64_default": [
+      {
+        "name": "basic_strings",
+        "passed": true,
+        "output": "57 checks, 0 failures\r\n"
+      },
+      {
+        "name": "extra_strings",
+        "passed": true,
+        "output": "double overflow: value=+INF ok=0\r\nfloat overflow: value=-INF ok=0\r\n48 checks, 0 failures\r\n"
+      },
+      {
+        "name": "compatibility",
+        "passed": true,
+        "output": "65 tests, 0 failures\r\n"
+      },
+      {
+        "name": "edges",
+        "passed": true,
+        "output": "58 additional checks, 0 failures\r\n"
+      },
+      {
+        "name": "formatter",
+        "passed": true,
+        "output": "38 printf regression checks, 0 failures\r\n"
+      },
+      {
+        "name": "example",
+        "passed": true,
+        "output": "Hello, C++Builder: 42\r\n"
+      },
+      {
+        "name": "compilation",
+        "passed": true,
+        "compile_only_checks": 6,
+        "linked_checks": 2
+      },
+      {
+        "name": "search",
+        "passed": true,
+        "checks": 126596,
+        "expected_sha256": "73dd6465f410c9e668fd62ca65f927b813887787aa4729f74d51d6dbd5c65c4f",
+        "output": ""
+      },
+      {
+        "name": "search_and_int",
+        "passed": true,
+        "checks": 74772,
+        "expected_sha256": "1722842fc257841618cc2f456f0c4765df056cc9ccf16ed46915d2bd75a7ab1f",
+        "output": "search_ms=10.969945 sink=-20\r\n"
+      },
+      {
+        "name": "proxy",
+        "passed": true,
+        "checks": 54725,
+        "expected_sha256": "7f5caa18a30a545388eeda5a71b189b6a843796147e5a0852c48c3258aa98022",
+        "output": ""
+      },
+      {
+        "name": "local8bit",
+        "passed": true,
+        "checks": 269232,
+        "expected_sha256": "7b8416140d575a8d658e0d8e0040725d9ab919279fc8c359348a90bb1d656388",
+        "output": "RTL=65001 ACP=1251 preserved\r\nRTL=1252 ACP=1251 preserved\r\nRTL=932 ACP=1251 preserved\r\nRTL=1251 ACP=1251 preserved\r\n"
+      },
+      {
+        "name": "rounding",
+        "passed": true,
+        "checks": 33680,
+        "expected_sha256": "4ef67c6dd850e35ce7f6f9d5745f924c10432db969a60ff4fab04ec647459138",
+        "output": ""
+      },
+      {
+        "name": "integration",
+        "passed": true,
+        "checks": 84692,
+        "output": "entered main\r\nlinked values checked\r\ncontainers checked\r\nthreads finished\r\n84692 checks, 0 failures\r\n"
+      },
+      {
+        "name": "search_performance",
+        "passed": true,
+        "milliseconds": {
+          "reverse_missing": 5.92373,
+          "dense_count": 2.5135,
+          "insensitive_early": 0.0003928,
+          "insensitive_late_start": 0.0003564,
+          "dense_count_insensitive": 2.60272,
+          "reverse_near_end": 0.0003463
+        },
+        "timing_limits_enforced": false
+      }
+    ],
+    "win64_O2": [
+      {
+        "name": "basic_strings",
+        "passed": true,
+        "output": "57 checks, 0 failures\r\n"
+      },
+      {
+        "name": "extra_strings",
+        "passed": true,
+        "output": "double overflow: value=+INF ok=0\r\nfloat overflow: value=-INF ok=0\r\n48 checks, 0 failures\r\n"
+      },
+      {
+        "name": "compatibility",
+        "passed": true,
+        "output": "65 tests, 0 failures\r\n"
+      },
+      {
+        "name": "edges",
+        "passed": true,
+        "output": "58 additional checks, 0 failures\r\n"
+      },
+      {
+        "name": "formatter",
+        "passed": true,
+        "output": "38 printf regression checks, 0 failures\r\n"
+      },
+      {
+        "name": "example",
+        "passed": true,
+        "output": "Hello, C++Builder: 42\r\n"
+      },
+      {
+        "name": "compilation",
+        "passed": true,
+        "compile_only_checks": 6,
+        "linked_checks": 2
+      },
+      {
+        "name": "search",
+        "passed": true,
+        "checks": 126596,
+        "expected_sha256": "73dd6465f410c9e668fd62ca65f927b813887787aa4729f74d51d6dbd5c65c4f",
+        "output": ""
+      },
+      {
+        "name": "search_and_int",
+        "passed": true,
+        "checks": 74772,
+        "expected_sha256": "1722842fc257841618cc2f456f0c4765df056cc9ccf16ed46915d2bd75a7ab1f",
+        "output": "search_ms=1.028760 sink=-20\r\n"
+      },
+      {
+        "name": "proxy",
+        "passed": true,
+        "checks": 54725,
+        "expected_sha256": "7f5caa18a30a545388eeda5a71b189b6a843796147e5a0852c48c3258aa98022",
+        "output": ""
+      },
+      {
+        "name": "local8bit",
+        "passed": true,
+        "checks": 269232,
+        "expected_sha256": "7b8416140d575a8d658e0d8e0040725d9ab919279fc8c359348a90bb1d656388",
+        "output": "RTL=65001 ACP=1251 preserved\r\nRTL=1252 ACP=1251 preserved\r\nRTL=932 ACP=1251 preserved\r\nRTL=1251 ACP=1251 preserved\r\n"
+      },
+      {
+        "name": "rounding",
+        "passed": true,
+        "checks": 33680,
+        "expected_sha256": "4ef67c6dd850e35ce7f6f9d5745f924c10432db969a60ff4fab04ec647459138",
+        "output": ""
+      },
+      {
+        "name": "integration",
+        "passed": true,
+        "checks": 84692,
+        "output": "entered main\r\nlinked values checked\r\ncontainers checked\r\nthreads finished\r\n84692 checks, 0 failures\r\n"
+      },
+      {
+        "name": "search_performance",
+        "passed": true,
+        "milliseconds": {
+          "reverse_missing": 0.59918,
+          "dense_count": 0.16555,
+          "insensitive_early": 3.15e-05,
+          "insensitive_late_start": 3.06e-05,
+          "dense_count_insensitive": 0.19096,
+          "reverse_near_end": 2.86e-05
+        },
+        "timing_limits_enforced": true
+      }
+    ]
+  },
+  "passed": true,
+  "finished_utc": "2026-11-11T12:31:50.052673+00:00",
+  "skipped": 0,
+  "corpus_and_integration_checks": 2574788,
+  "headers_unchanged": true,
+  "validation": "Built and run from a fresh extraction in a directory containing a space"
+}
