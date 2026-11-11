@@ -1,0 +1,62 @@
+{
+  "reference": "Qt 5.15.2 native Win64 DLL, except the explicitly labelled QCharRef model",
+  "generated_utc": "2026-11-11T12:25:44.058953+00:00",
+  "suites": {
+    "search": {
+      "input": "search.input.bin.gz",
+      "expected": "search.expected.bin.gz",
+      "input_sha256": "1e0e10a0ab09db755c2e1f136ddb40b2e763b057b3eddb1ef79b453cbd8f30a5",
+      "expected_sha256": "73dd6465f410c9e668fd62ca65f927b813887787aa4729f74d51d6dbd5c65c4f",
+      "checks": 126596,
+      "generator": "review_qt515_second_search.py",
+      "generator_sha256": "fb172af5d7c2b98f9645ddbff124d9dcb92305d15f4c8405b8a2350fdf288900",
+      "reference": "5.15.2"
+    },
+    "search_and_int": {
+      "input": "search_and_int.input.bin.gz",
+      "expected": "search_and_int.expected.bin.gz",
+      "input_sha256": "974ab393893e7863ee6fb94672ece0022e2d21bdbb0100de65386ccef2bfe409",
+      "expected_sha256": "1722842fc257841618cc2f456f0c4765df056cc9ccf16ed46915d2bd75a7ab1f",
+      "checks": 74772,
+      "generator": "review_qt515_four_review.py",
+      "generator_sha256": "bb52e66ff55885a91d5fb7f5ddd05f01651a14adfb442d2efe2241ba72f2fa0a",
+      "reference": "5.15.2"
+    },
+    "proxy": {
+      "input": "proxy.input.bin.gz",
+      "expected": "proxy.expected.bin.gz",
+      "input_sha256": "9fb907347caa5839d29c50f270eea15174ef6270eb6d18ff40e34ef3a4ca315b",
+      "expected_sha256": "7f5caa18a30a545388eeda5a71b189b6a843796147e5a0852c48c3258aa98022",
+      "checks": 54725,
+      "generator": "review_qt515_four_proxy.py",
+      "generator_sha256": "127c075e6fc828bf06103986192b9c503481d9f48a60092a14cfbc3ee72fdfcf",
+      "reference": "Qt 5.15.2 qstring.h QCharRef conversion/assignment lines 1199-1235; expected resize with space, then assign"
+    },
+    "local8bit": {
+      "input": "local8bit.input.bin.gz",
+      "expected": "local8bit.expected.bin.gz",
+      "input_sha256": "936336157827e6fe7b0e5f20dc2fed76644d06b32fd5156de7d963acbd9fc79f",
+      "expected_sha256": "7b8416140d575a8d658e0d8e0040725d9ab919279fc8c359348a90bb1d656388",
+      "checks": 269232,
+      "generator": "review_qt515_four_local.py",
+      "generator_sha256": "85cd7464cda1580ef0c30acf8e3a9e43f553a890df21f11d1b6efa2eef279b8a",
+      "reference": "5.15.2",
+      "windows_acp": 1251
+    },
+    "rounding": {
+      "input": "rounding.input.bin.gz",
+      "expected": "rounding.expected.bin.gz",
+      "input_sha256": "91b02cda72ebe5cc5116ba4e7178927768573ddfc709fdac1b1ec74873c7a32e",
+      "expected_sha256": "4ef67c6dd850e35ce7f6f9d5745f924c10432db969a60ff4fab04ec647459138",
+      "checks": 33680,
+      "generator": "review_qt515_release_rounding.py",
+      "generator_sha256": "e498be08dde4797be77f3523cb0ffd689a8a6c64babe662442e80d55913371d1",
+      "reference": "5.15.2"
+    }
+  },
+  "reference_dll_sha256": "8d2ff4ce9096ddccc4f4cd62c2e41fc854cfd1b0d6e8d296645a7f5fd4ae565a",
+  "qt_source_urls": [
+    "https://raw.githubusercontent.com/qt/qtbase/v5.15.2/src/corelib/text/qstring.h",
+    "https://raw.githubusercontent.com/qt/qtbase/v5.15.2/src/corelib/text/qstring.cpp"
+  ]
+}
